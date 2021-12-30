@@ -23,9 +23,6 @@ class CreateBooksTable extends Migration {
 			$table->integer('category_id')->nullable();
             $table->dateTime('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
             $table->dateTime('updated_at')->default(DB::raw('CURRENT_TIMESTAMP'))->onUpdate(DB::raw('CURRENT_TIMESTAMP'));
-            $table->foreign('category_id')
-                ->references('id')->on('categories')
-                ->onDelete('set null');
 		});
 	}
 
