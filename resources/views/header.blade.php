@@ -50,20 +50,6 @@
 
                     <ul class="dropdown-menu">
                         <!-- Menu Body -->
-                        <li class="user-body">
-                            <div class="row">
-                                <div class="col-xs-4 text-center">
-                                    <a href="#">{{__('layout.english')}}</a>
-                                </div>
-                                <div class="col-xs-4 text-center">
-                                    <a href="#">{{__('layout.chinese')}}</a>
-                                </div>
-                                <div class="col-xs-4 text-center">
-                                    <a href="#">{{__('layout.swedish')}}</a>
-                                </div>
-                            </div>
-                            <!-- /.row -->
-                        </li>
                         <!-- Menu Footer-->
                         @if(\Illuminate\Support\Facades\Auth::guest())
                             <li class="user-footer">
