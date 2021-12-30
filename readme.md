@@ -5,6 +5,8 @@
 
 the default admin is w@w.com  password is 11111111
 
+here is a demo http://library.softdd.net/
+
 ## Questions
 ###  Export Data
 it said 
